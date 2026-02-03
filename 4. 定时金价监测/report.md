@@ -17,7 +17,17 @@
 ![image](./assets/1.png)
 
 
-这里如果出现安装出错，有可能是之前安装过老版本，需要卸载后再安装新版
+这里如果出现安装出错，有可能是之前安装过老版本，需要到命令行界面卸载后再安装新版
+命令行执行下面几条命令：
+```bash
+npm list -g --depth 0
+```
+检查输出中是否包含`clawdbot`和`clawdhub`关键字，如果包含就需要先卸载，卸载需要执行下面命令
+```bash
+npm uninstall -g clawdhub
+npm uninstall -g clawdbot
+```
+下面这是详细的命令执行记录，可以对比一下看：
 ```bash
 jet@jet-m1000:~$ npm list -g --depth 0
 /usr/local/nodejs/lib
@@ -30,22 +40,26 @@ jet@jet-m1000:~$ npm list -g --depth 0
 ├── openclaw@2026.1.30
 └── undici@7.19.2
 
-jet@jet-ab100:~$ npm uninstall -g clawdhub
+jet@jet-m1000:~$ npm uninstall -g clawdhub
 
 removed 34 packages in 304ms
-jet@jet-ab100:~$ npm uninstall -g clawdbot
+jet@jet-m1000:~$ npm uninstall -g clawdbot
 ```
 
 ### 安装skills
 
 `clawhub`提供了很多的skill，具体可以通过 https://www.clawhub.ai/skills 访问查阅
 
-这里我们使用 `crypto-gold-monitor` 这个`skill`
-
+这里我们使用 `crypto-gold-monitor` 这个`skill`，命令行安装命令是：
 ```bash
-jet@jet-ab100:~$ clawhub install crypto-gold-monitor
+clawhub install crypto-gold-monitor
+```
+执行展示：
+```bash
+jet@jet-m1000:~$ clawhub install crypto-gold-monitor
 ✔ OK. Installed crypto-gold-monitor -> /home/jet/.openclaw/workspace/skills/crypto-gold-monitor
 ```
+当然你也可以直接让助手去用clawhub装这个skill。
 
 安装完成后直接问小助手:"你看到工作区中的 `crypto-gold-monitor` 这个技能吗？"
 小助手等待一会儿之后顺利找到了：
@@ -90,6 +104,8 @@ jet@jet-ab100:~$ clawhub install crypto-gold-monitor
 ![image](./assets/12.png)
 
 现在，小助手就开始定时每分钟汇报金价了。
+
+**注意**：定时任务的安排对于提示词要求比较高，如果上述定时任务效果不佳，可以考虑使用：`“我希望每分钟你能告诉我一下当前金价,使用工作空间的技能 crypto-gold-monitor 技能可以查询到实时金价。请使用cron job和新sessions完成该任务”`，或者其他更为友好、尊重、清晰的提示词表述。
 
 
 ### 删除定时任务
