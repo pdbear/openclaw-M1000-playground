@@ -1,4 +1,4 @@
-# 看AIBOOK 5分钟，3句话，让OPENCLAW 起 YOLOv8n 干目标检测的活
+# AIBOOK 5分钟，3句话，让OPENCLAW 完成 YOLOv8n 目标检测demo
 
 ## 概述
 
