@@ -1,4 +1,4 @@
-# 使用 OPENCLAW 快速部署YOLOv8n 并开发UI界面进行推理
+# 看AIBOOK 5分钟，3句话，让OPENCLAW 起 YOLOv8n 干目标检测的活
 
 ## 概述
 
