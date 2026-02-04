@@ -1,4 +1,4 @@
-# AIBOOK 使用 openclaw 进行金价监测
+# 啊！黄金又涨了吗？看 AIBOOK 怎么用 openclaw 每分钟告诉你当前黄金价格
 
 ## 概述
 
@@ -61,7 +61,8 @@ jet@jet-m1000:~$ clawhub install crypto-gold-monitor
 ```
 当然你也可以直接让助手去用clawhub装这个skill。
 
-安装完成后直接问小助手:"你看到工作区中的 `crypto-gold-monitor` 这个技能吗？"
+**安装完成后直接问小助手**:`"你看到工作区中的 `crypto-gold-monitor` 这个技能吗？"`
+
 小助手等待一会儿之后顺利找到了：
 
 ![image](./assets/1.png)
@@ -99,7 +100,7 @@ jet@jet-m1000:~$ clawhub install crypto-gold-monitor
 ### 金价定时报告
 了解到基本的定时使用后，我们就可以让他定时报告金价了
 
-这里我给小助手下达一个任务："使用工作空间的技能 crypto-gold-monitor ，每分钟告诉我一下当前金价？"
+**这里我给小助手下达一个任务**：`"使用工作空间的技能 crypto-gold-monitor ，每分钟告诉我一下当前金价？"`
 ![image](./assets/11.png)
 ![image](./assets/12.png)
 
@@ -109,4 +110,4 @@ jet@jet-m1000:~$ clawhub install crypto-gold-monitor
 
 
 ### 删除定时任务
-当你不想要定时发布信息了，那直接对助手说“删除掉所有定时任务”就行了。
+当你不想要定时发布信息了，**那直接对助手说**`“删除掉所有定时任务”就行了。`
