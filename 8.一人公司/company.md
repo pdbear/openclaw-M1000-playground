@@ -548,7 +548,7 @@ openclaw gateway restart
 
 可以在飞书群聊中指挥智能体协同工作：
 
-![群聊协作](./asserts/7-1.png)
+![群聊协作](./asserts/7.png)
 
 ### 7.2 单聊任务
 
