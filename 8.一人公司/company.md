@@ -533,6 +533,9 @@ openclaw gateway restart
 ```
 
 > 💡 **提示**：以上仅为基本演示。如需获得更好的针对性效果，建议使用更为专业的提示词工程。
+> 提示词怎么写？ 可以搜索网上别人写好的，再根据agent的输出不断优化。
+> 比如 https://qdcto.com/pages/ai_agent_prompts.html 这个网站就提供了不少。
+> 比如 https://www.notion.com/zh-cn/templates/category/best-ai-prompts-templates 这个网站也提供了不少
 
 ![角色设定](./asserts/6.png)
 
