@@ -518,9 +518,10 @@ openclaw gateway restart
 
 ### 6.1 编辑角色文件
 
-在 OpenClaw 网页中，导航至 `Agents → dev → Files → MEMORY.md`（或推荐使用的 `SOUL.md`）：
+在 OpenClaw 网页中，导航至 `Agents → dev → Files → SOUL.md`：
 
-> ⚠️ **建议**：正规用法应将角色信息放入 `SOUL.md` 文件中。此处因 `MEMORY.md` 未创建，暂用其代替，但存在被覆盖的风险。
+> ⚠️ **建议**：正规用法应将角色信息放入 `SOUL.md` 文件中。
+> 此处因 `MEMORY.md` 未创建，所以演示图片就直接截图了，是误操作。
 
 ### 6.2 角色设定示例
 
@@ -533,11 +534,13 @@ openclaw gateway restart
 ```
 
 > 💡 **提示**：以上仅为基本演示。如需获得更好的针对性效果，建议使用更为专业的提示词工程。
-> 提示词怎么写？ 可以搜索网上别人写好的，再根据agent的输出不断优化。
+> 提示词怎么写？ 可以搜索网上别人写好的，再根据agent的输出不断优化以适应你个人的需求。
 > 比如 https://qdcto.com/pages/ai_agent_prompts.html 这个网站就提供了不少。
 > 比如 https://www.notion.com/zh-cn/templates/category/best-ai-prompts-templates 这个网站也提供了不少
 
 ![角色设定](./asserts/6.png)
+
+**注意**：角色内容需要填写到上方`SOUL.md`文件中，这里的`MEMORY.md`是错误示范。
 
 填写完成后点击 **Save** 保存。
 
