@@ -1,0 +1,182 @@
+[
+  {
+    "category": "AI训练和推理",
+    "title": "vLLM-MTT",
+    "description": "摩尔线程自研大模型推理引擎",
+    "url": "https://docs.mthreads.com/mtt/mtt-doc-online/"
+  },
+  {
+    "category": "AI训练和推理",
+    "title": "vLLM-MUSA",
+    "description": "专为摩尔线程GPU设计的vLLM后端运行插件",
+    "url": "https://docs.mthreads.com/vllm-musa/vllm-musa-doc-online/intro"
+  },
+  {
+    "category": "AI训练和推理",
+    "title": "Torch MUSA",
+    "description": "摩尔线程传统模型训练和推理",
+    "url": "https://docs.mthreads.com/torchmusa/torchmusa-doc-online/introduction"
+  },
+  {
+    "category": "AI训练和推理",
+    "title": "MT-Megatron",
+    "description": "MT-Megatron & MT TransformerEngine",
+    "url": "https://docs.mthreads.com/megatron/megatron-doc-online/introduction"
+  },
+  {
+    "category": "AI训练和推理",
+    "title": "vLLM-MUSA-M1000",
+    "description": "专为摩尔线程端侧GPU设计的vLLM运行插件",
+    "url": "https://docs.mthreads.com/vllm-musa-m1000/v1.3/AIModule_1.3.0.003/intro"
+  },
+  {
+    "category": "AI训练和推理",
+    "title": "MTNN - M1000",
+    "description": "摩尔线程 M1000 AI 推理工具链与运行时库",
+    "url": "https://docs.mthreads.com/mtnn/mtnn-doc-online/introduction"
+  },
+  {
+    "category": "AI训练和推理",
+    "title": "MTStream - M1000",
+    "description": "摩尔线程 M1000 高性能多媒体处理软件开发包",
+    "url": "https://docs.mthreads.com/mtstream/mtstream-doc-online/introduction"
+  },
+  {
+    "category": "MUSA技术计算软件",
+    "title": "MUSA SDK",
+    "description": "摩尔线程MUSA软件开发集成套件",
+    "url": "https://docs.mthreads.com/musa-sdk/musa-sdk-doc-online/introduction"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "MT Linux Driver - Server",
+    "description": "摩尔线程Linux驱动程序",
+    "url": "https://docs.mthreads.com/driver-linux-server/driver-linux-server-doc-online/introduction"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "MT Linux Driver - PC",
+    "description": "摩尔线程Linux驱动程序",
+    "url": "https://docs.mthreads.com/driver-linux-pc/driver-linux-pc-doc-online/introduction"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "GPU Management Center",
+    "description": "摩尔线程GPU管理中心",
+    "url": "https://docs.mthreads.com/gmc/gmc-doc-online/introduction"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "AlphaCore GPU物理引擎",
+    "description": "摩尔线程超大规模分布式GPU物理引擎",
+    "url": "https://docs.mthreads.com/alphacore/alphacore-doc-online"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "MT Video Codec SDK",
+    "description": "摩尔线程视频编解码软件开发集成套件",
+    "url": "https://docs.mthreads.com/codec/codec-doc-online/introduction"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "Moore Perf Tools",
+    "description": "摩尔线程GPU性能分析套件",
+    "url": "https://docs.mthreads.com/mooreperf/mooreperf-doc-online/introduction"
+  },
+  {
+    "category": "GPU驱动和工具包",
+    "title": "Musa-Deploy",
+    "description": "摩尔线程GPU软件栈自动部署工具",
+    "url": "https://docs.mthreads.com/musa-deploy/musa-deploy-doc-online/introduction"
+  },
+  {
+    "category": "云原生",
+    "title": "MT vGPU",
+    "description": "摩尔线程GPU虚拟化驱动产品",
+    "url": "https://docs.mthreads.com/vgpu/vgpu-doc-online/introduction"
+  },
+  {
+    "category": "云原生",
+    "title": "MT Cloud Native Toolkits",
+    "description": "摩尔线程云原生套件",
+    "url": "https://docs.mthreads.com/cloud-native/cloud-native-doc-online/introduction"
+  },
+  {
+    "category": "云原生",
+    "title": "KUAE Cloud",
+    "description": "夸娥公共云服务-国产芯算，智启未来",
+    "url": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/introduction"
+  },
+  {
+    "category": "硬件产品",
+    "title": "MTT S10",
+    "description": "超高清·向未来",
+    "url": "https://docs.mthreads.com/s10/s10-doc-online/introduction"
+  },
+  {
+    "category": "硬件产品",
+    "title": "MTT S30",
+    "description": "超高清·向未来",
+    "url": "https://docs.mthreads.com/s30/s30-doc-online/introduction"
+  },
+  {
+    "category": "硬件产品",
+    "title": "MTT S50",
+    "description": "炫彩视界·智创悦享",
+    "url": "https://docs.mthreads.com/s50/s50-doc-online/introduction"
+  },
+  {
+    "category": "硬件产品",
+    "title": "智娱摩方",
+    "description": "游戏有竞·探索无尽",
+    "url": "https://docs.mthreads.com/gamingbox/gamingbox-doc-online/introduction"
+  },
+  {
+    "category": "智算终端产品",
+    "title": "AIBOOK",
+    "description": "算力本·智未来",
+    "url": "https://docs.mthreads.com/aibook/m1000-doc-online/introduction"
+  },
+  {
+    "category": "",
+    "title": "MTT S3000",
+    "description": "从开发到部署 加速元计算全场景应用",
+    "url": "https://docs.mthreads.com/s3000/s3000-doc-online/introduction"
+  },
+  {
+    "category": "",
+    "title": "MTT S4000",
+    "description": "大模型智算加速卡",
+    "url": "https://docs.mthreads.com/s4000/s4000-doc-online/introduction"
+  },
+  {
+    "category": "",
+    "title": "MCCX D800",
+    "description": "AI 大模型训推一体机",
+    "url": "https://docs.mthreads.com/d800/d800-doc-online/introduction"
+  },
+  {
+    "category": "应用",
+    "title": "语音识别",
+    "description": "摩尔线程自研语音识别解决方案",
+    "url": "https://docs.mthreads.com/asr/asr-doc-online/installation"
+  },
+  {
+    "category": "应用",
+    "title": "音色转换",
+    "description": "摩尔线程自研音色转换解决方案",
+    "url": "https://docs.mthreads.com/vc/stream-vc/introduction"
+  },
+  {
+    "category": "应用",
+    "title": "数字人一体机",
+    "description": "基于摩尔线程GPU的实时交互数字人解决方案",
+    "url": "https://docs.mthreads.com/digital-human/environment_setup"
+  },
+  {
+    "category": "应用",
+    "title": "语音合成",
+    "description": "摩尔线程自研语音合成解决方案",
+    "url": "https://docs.mthreads.com/tts/stream-tts/introduction"
+  }
+]
